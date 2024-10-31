@@ -25,5 +25,5 @@ def add_node(node_data: NodeData):
 
 @app.get("/nodes/")
 def get_tree():
-    # Obtener la estructura completa del árbol
+    # show the tree
     return tree.display()
